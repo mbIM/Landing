@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Landing</title>
+    <style>
+        .header {
+            background: rgba(138, 144, 255, 0.7);
+            position: fixed;
+            padding: 10px 0;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 997;
+        }
+        .menu-item {
+            list-style: none;
+        }
+        .menu-link {
+            text-decoration: none;
+            display: inline-block;
+            color: #fff;
+            font-weight: 400;
+            font-size: 14px;
+            text-transform: uppercase;
+            outline: none;
+        }
+        .section_banner {
+            background: url(banner-bg.jpg);
+            background-size: cover;
+        }
+        .container {
+            max-width: 1140px;
+            padding: 0 15px;
+            margin: auto;
+        }
+        .banner {
+            margin-top: 120px;
+            padding: 120px 0;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .banner-text-header {
+            color: white;
+            font-size: 60px;
+            font-weight: 600;
+            text-align: center;
+        }
+        .banner-text-body {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .banner-text-body a {
+            text-decoration: none;
+            color: white;
+            font-weight: 300px;
+            font-size: 14px;
+        }
+        .banner-text-body span {
+            color: white;
+            font-weight: 300px;
+            font-size: 14px;
+            padding: 0 5px;
+        }
+        .section_main {
+            padding: 120px 0;
+        }
+        .section_header {
+            text-align: center;
+        }
+        h1 {
+            font-size: 45px;
+            color:rgb(49, 11, 77)
+        }
+        .card-wrap {
+            padding: 15px;
+            width: 25%;
+        }
+        .card {
+            min-width: 255px;
+            text-align: center;
+            background-color: lavenderblush;
+            border-radius: 10px;
+            box-shadow: 0px 5px 30px 0px rgba(56, 58, 52, 0.3)
+        }
+        .card-image-wrap {
+            padding: 40px;
+            border-bottom: 1px solid white
+        }
+        .card-image {
+            width: 100%;
+        }
+        h4 {
+            font-size: 23px;
+        }
+        .card-detailes {
+            padding: 20px;
+            background-color:lavenderblush;
+        }
+        .card-button {
+            display: inline-block;
+            text-decoration: none;
+            margin-top: 10px;
+            background:whitesmoke;
+            color:black;
+            font-weight: 600;
+            line-height: 42px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border: 1px solid transparent;
+            cursor: pointer;
+            position: relative;
+            text-transform:uppercase;
+        }
+        .card-button:hover {
+            border: 1px solid black;
+            background: linear-gradient(45deg, rgba(120,120,253,0.1), lavender, whitesmoke)
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="menu">
+            <div class="menu-logo"></div>
+            <div class="menu-nav-container">
+                <div class="container">
+                    <ul class="menu-nav">
+                        <li class="menu-item"><a href="#" class="menu-link"> Home </a></li>
+                        <li class="menu-item"><a href="#" class="menu-link"> News </a></li>
+                        <li class="menu-item"><a href="#" class="menu-link"> Gallery </a></li>
+                        <li class="menu-item"><a href="#" class="menu-link"> Contacts </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <section class="section section_banner">
+        <div class="container">
+            <div class="banner-container">
+                <div class="banner">
+                    <div class="banner-text">
+                        <h1 class="banner-text-header"> Products </h1>
+                        <div class="banner-text-body">
+                            <a href="#"> Home </a> <span> → </span> <a href="#"> Products </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section_main">
+        <div class="container">
+            <div class="section_header">
+                <h1>Caps</h1>
+                <p>Лучшие кружечки для чая:3</p>
+            </div>
+            <div class="card-container">
+                <div class="card-wrap">
+                    <div class="card">
+                        <div class="card-image-wrap">
+                            <img class="card-image" src="Авокато.jpg">
+
+                        </div>
+                        <div class="card-detailes">
+                            <h4 class="card-header">Авокато</h4>
+                            <p class="card-text">Самая коварная кружка</p>
+                            <a class="card-button" href="#">View detailes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-block footer-block-last">
+            <div class="copyright">
+                Copyright 2019 ALL Rights reserved By Alina
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
